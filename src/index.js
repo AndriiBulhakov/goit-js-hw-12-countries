@@ -1,7 +1,7 @@
 import './styles.css';
 import countries from './template/countries.hbs'
 import countriesList from './template/countriesList.hbs'
-import fetchSearchContries from './fetchCountries'
+import fetchSearchContries from './script/fetchCountries'
 import debounce from 'lodash';
 import PNotify from 'pnotify/dist/es/PNotify';
 import PNotifyButtons from 'pnotify/dist/es/PNotifyButtons.js';
