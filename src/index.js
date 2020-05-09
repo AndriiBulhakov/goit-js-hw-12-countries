@@ -1,9 +1,9 @@
 import './styles.css';
 import countries from './template/countries.hbs'
 import countriesList from './template/countriesList.hbs'
-import fetchSearchContries from './fetchCountries.js'
+import fetchSearchContries from './fetchCountries'
 import debounce from 'lodash';
-import PNotify from 'pnotify/dist/es/PNotify.js';
+import PNotify from 'pnotify/dist/es/PNotify';
 import PNotifyButtons from 'pnotify/dist/es/PNotifyButtons.js';
 import 'pnotify/dist/PNotifyBrightTheme.css'
 const searchForm = document.querySelector('.js-search-form');
