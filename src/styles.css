@@ -1,0 +1,28 @@
+.countries{
+  margin-top: 50px;
+  display: flex;
+  flex-direction: column;
+} 
+.countries ul li{
+  list-style: none;
+  
+}
+.countries h2{
+  font-size: 40px;
+  
+}
+.countries li{
+  font-size: 22px;
+}
+.countries-item{
+  display: flex;
+  font-size: 22px;
+}
+.languages{
+  padding: 0;
+}
+.languages li{
+  margin-left: 20px;
+  font-size: 18px;
+}
+
